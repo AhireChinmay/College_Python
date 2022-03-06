@@ -1,3 +1,5 @@
+# Q- Write a program to show the list methords
+
 MyList = [12,51,65,74,84,65,84,59,8,15]
 print("The Maximum number of list is",max(MyList))
 print("The Minimum number of list is",min(MyList))

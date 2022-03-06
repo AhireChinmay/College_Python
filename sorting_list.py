@@ -1,3 +1,5 @@
+# Q- Write a program to sort and reverse the entered list 
+
 MyList = [0,1,2,3,4,5,6]
 MyList[0]= int(input("Enter the first number: "))
 MyList[1]= int(input("Enter the second number: "))

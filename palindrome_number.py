@@ -1,3 +1,5 @@
+# Q- Write a program to find whether a number is palindrome or not
+
 n=int(input("Enter number:"))
 temp=n
 rev=0

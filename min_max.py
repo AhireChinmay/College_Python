@@ -1,3 +1,6 @@
+# Q- Write a program to find the maximum and 
+# minimum of a list entered by user 
+
 n = int(input("Enter the size of for loop: "))
 MyList=[]
 for i in range(1,n+1):

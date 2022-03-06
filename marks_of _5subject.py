@@ -1,3 +1,6 @@
+# Q- Write a program to find whether a person is passed or failed when 
+# he enters his marks of 5 subjects
+
 S1_marks = int(input("Enter marks of first subject: "))
 S2_marks = int(input("Enter marks of second subject: "))
 S3_marks = int(input("Enter marks of third subject: "))
