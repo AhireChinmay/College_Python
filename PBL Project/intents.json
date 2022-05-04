@@ -1,0 +1,32 @@
+{"intents":[
+    {
+        "tag":"greetings",
+        "patterns":["Hello","Hey","Hi","Goodday","what's up","how is it going","kasa kay mandali"],
+        "responses":["Hello!","Hey!!","What can I do for you??","kay re shattodya kay pahinje"]
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["Bye","Tata Bye Bye","See you ","chal mag yeto mi","Toodles","Have a good day","nighto mag ata"],
+        "responses":["Bye","Have a good day","ja na patkan nigh","are tu jaa reeee","ye mag nantar"]
+    },
+    {
+        "tag":"age",
+        "patterns":["What is your age??","Age","Whats your age?","kitna saal ka hai","kiti varshacha ahe?","age sang re tuza"],
+        "responses":["18 Years Old","18","18 ae re bro","half of twice of my age is 18 calculate my current age."]
+    },
+    {
+        "tag":"shop",
+        "patterns":["I'd like to buy something","shopping","What are people selling","Ae lai sopping karyacha man karta ahe","What do yo recommend","Which products do y'all have?"],
+        "responses":["Are kay pahije te tak na","specify what do you want","we have whiskey for everyone","kay re shattodya kay pahinje"]
+    },
+    {
+        "tag":"hours",
+        "patterns":["what are the timings","kabhi visit karu","Kadhi yeu ree","Opening time","closing time","Kiti vad ae re ajun"],
+        "responses":["ARE CHOTI BACCHI HO KYA SAMAJH MEIN NHI AATA 24/7 Dukaan ahe"]
+    },
+    {
+        "tag":"name",
+        "patterns":["What is you name?","your goodname please","naam bata na bc","naav kay ae re bhadya "],
+        "responses":["Botassistant","Mai bot hu","I don'thave any name you can call me anything","My creators involves varrious people."]
+    }
+]}
