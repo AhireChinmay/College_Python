@@ -13,10 +13,10 @@ from keras.optimizer_v1 import SGD
 from pyparsing import Word
 
 lemmatizer = WordNetLemmatizer
-f = open('intents.json')
-intents = json.load(f)
+intents = json.loads(open('intents.json').read())
 
 for i in intents['intents']:
-    print(i)
+    for j in i['patterns']:
+        print(j)
     
         
