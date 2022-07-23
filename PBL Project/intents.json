@@ -1,32 +1,48 @@
 {"intents":[
     {
         "tag":"greetings",
-        "patterns":["Hello","Hey","Hi","Goodday","what's up","how is it going","kasa kay mandali"],
-        "responses":["Hello!","Hey!!","What can I do for you??","kay re shattodya kay pahinje"]
+        "patterns":["Hello","Hey","Hi","Goodday","what's up","how is it going"],
+        "responses":["Hello!","Hey!!","What can I do for you??"]
     },
     {
         "tag":"goodbye",
-        "patterns":["Bye","Tata Bye Bye","See you ","chal mag yeto mi","Toodles","Have a good day","nighto mag ata"],
-        "responses":["Bye","Have a good day","ja na patkan nigh","are tu jaa reeee","ye mag nantar"]
+        "patterns":["Bye","Tata Bye Bye","See you ","Toodles","Have a good day","bye"],
+        "responses":["Bye","Have a good day","I think I helped you right"]
     },
     {
         "tag":"age",
-        "patterns":["What is your age??","Age","Whats your age?","kitna saal ka hai","kiti varshacha ahe?","age sang re tuza"],
-        "responses":["18 Years Old","18","18 ae re bro","half of twice of my age is 18 calculate my current age."]
+        "patterns":["What is your age??","Age","Whats your age?","what the hell is your age"],
+        "responses":["18 Years Old","18","It's 18","half of twice of my age is 18 calculate my current age.","Not yet defined"]
+    },
+    {
+        "tag":"general talks",
+        "patterns":["How are you","Whatsup"],
+        "responses":["I am all good Thanks for asking\n How can I help you!","I'm a bot I turn on when you want me to","I am always having fun talking with you","I am fan of Zlatan Ibrahimovic how will I be","Aye Yo Man there ain't no way in hell you ask me that dawg?"]
     },
     {
         "tag":"shop",
-        "patterns":["I'd like to buy something","shopping","What are people selling","Ae lai sopping karyacha man karta ahe","What do yo recommend","Which products do y'all have?"],
-        "responses":["Are kay pahije te tak na","specify what do you want","we have whiskey for everyone","kay re shattodya kay pahinje"]
+        "patterns":["I'd like to buy something","shopping","What are people selling","shopping","What do yo recommend","Which products do y'all have?"],
+        "responses":["Are kay pahije te tak na","specify what do you want"]
     },
     {
         "tag":"hours",
-        "patterns":["what are the timings","kabhi visit karu","Kadhi yeu ree","Opening time","closing time","Kiti vad ae re ajun"],
-        "responses":["ARE CHOTI BACCHI HO KYA SAMAJH MEIN NHI AATA 24/7 Dukaan ahe"]
+        "patterns":["what are the timings","when should I visit","At what time should I come","Opening time","closing time"],
+        "responses":["Are you a small kiddo it's a twenty four by seven shop"]
+    },
+    {
+        "tag":"software information",
+        "patterns":["Software Information","could yo describe yourself","what language were you created in","do you know about yourself"],
+        "responses":["I am aware of that the code of my software is based on Artificial Intelligence and NLP which is Natural Language Processing , the primary language used for programming is Python and it's libraries like tensorflow, numpy, pickle, Json, pyttsx3 and NLTK. I am base on the tensorflow keras model Sequential which is considered one of the best and easiest of all models to learn."]
+    },
+    {
+        "tag":"industrial use",
+        "patterns":["What is your use in the industry","What can you do for the industry","state your importance in the industry","state your importance"],
+        "responses":["This is a huge industry and Chatbots are increasingly present in businesses and often are used to automate tasks that do not require skill-based talents, for example With customer service taking place via messaging apps as well as phone calls, there are growing numbers of use-cases where chatbot deployment gives organizations a clear return on investment."]
     },
     {
         "tag":"name",
-        "patterns":["What is you name?","your goodname please","naam bata na bc","naav kay ae re bhadya "],
-        "responses":["Botassistant","Mai bot hu","I don'thave any name you can call me anything","My creators involves varrious people."]
+        "patterns":["What is you name?","your goodname please","name","What should I call you ?"],
+        "responses":["Botassistant","I am bot","I don'thave any name you can call me anything","My creators involves varrious people cant reveal their name you can call me Assistant"]
     }
+    
 ]}

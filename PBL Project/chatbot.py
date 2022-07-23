@@ -2,6 +2,7 @@ import random
 import numpy as np
 import pickle
 import json
+import speech_recognition
 import pyttsx3
 import nltk
 from nltk.stem import WordNetLemmatizer
@@ -15,8 +16,6 @@ intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 model = load_model('chatbot_model.h5')
-
-
 
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
@@ -67,13 +66,31 @@ def get_resonse(intents_list, intents_json):
 print('This chatbot is running')
 speak('Chatbot is running')
 
+# THIS IS THE SPPEECH RECOGNITION CODE 
+# recognizer = speech_recognition.Recognizer()
+# for i in range(10):
+#     try:
+#         with speech_recognition.Microphone() as mic:
+#             recognizer.adjust_for_ambient_noise(mic,duration=0.1)
+#             audio = recognizer.listen(mic)
+
+#             text = recognizer.recognize_google(audio)
+#             text = text.lower()
+#             print(f"Recognised:- {text}")
+
+#     except speech_recognition.UnknownValueError():
+#         recognizer = speech_recognition.Recognizer()
+        
+
+
 while True:
-    message = input("")
+    message = input("-->>")
     ints = predict_class(message)
+    # ints = predict_class(text)
     res = get_resonse(ints, intents)
     print(res)
-    speak(res)
-
+    speak(res)    
+    
 
 
 
